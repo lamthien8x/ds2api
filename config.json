@@ -3,19 +3,10 @@
   "_doc": "详细文档: https://github.com/CJackHwang/ds2api",
   "accounts": [
     {
-      "name": "主账号",
-      "remark": "优先用于生产流量",
-      "email": "lamthien8x@gmail.com",
-      "password": "Conga3ql3@"
-    },
-    {
-      "name": "备用账号",
-      "email": "hocong.bka@gmail.com",
-      "password": "Conga3ql3@"
-    },
-    {
-      "mobile": "12345678901",
-      "password": "your-password-3"
+      "name": "ho cong",
+      "email": "lamthien10x@gmail.com",
+      "password": "Conga3ql3@",
+      "proxy_id": "proxy_4dbd64cc79e1"
     }
   ],
   "admin": {
@@ -43,7 +34,7 @@
     "provider": "deterministic"
   },
   "keys": [
-    "key-1",
+    "sk-f966865bf5aa4de6a62f095ce7a95bd2",
     "key-2"
   ],
   "model_aliases": {
@@ -52,6 +43,17 @@
     "gpt-5.5": "deepseek-v4-flash",
     "o3": "deepseek-v4-pro"
   },
+  "proxies": [
+    {
+      "id": "proxy_4dbd64cc79e1",
+      "name": "160.250.166.88",
+      "type": "socks5h",
+      "host": "160.250.166.88",
+      "port": 21149,
+      "username": "sZTVsn",
+      "password": "lODbHv"
+    }
+  ],
   "responses": {
     "store_ttl_seconds": 900
   },
